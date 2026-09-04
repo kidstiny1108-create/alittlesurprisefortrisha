@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- =====================================
+     LANDING SCREEN
+===================================== -->
+
+<section id="landingScreen" class="screen active">
+
+    <div class="landing-content">
+
+        <!--
+        ====================================
+        WHATSAPP LOGO IMAGE
+        শুধু filename পরিবর্তন করবে
+        ====================================
+        -->
+
+        <div class="whatsapp-logo">
+
+            <img
+                src="assets/images/whatsapp-logo.png"
+                alt="WhatsApp"
+            >
+
+        </div>
+
+
+        <h1>One Little Surprise</h1>
+
+        <p>
+            Something special is waiting for you...
+        </p>
+
+        <button id="openWhatsAppBtn">
+            Open WhatsApp
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     FAKE WHATSAPP HOME
+===================================== -->
+
+<section id="whatsappScreen" class="screen">
+
+    <div class="phone">
+
+
+        <!-- HEADER -->
+
+        <header class="wa-header">
+
+            <div>
+                <h2>WhatsApp</h2>
+            </div>
+
+            <div class="header-icons">
+                <span>⌕</span>
+                <span>⋮</span>
+            </div>
+
+        </header>
+
+
+
+        <!-- SEARCH -->
+
+        <div class="search-box">
+
+            <span>⌕</span>
+
+            <input
+                type="text"
+                placeholder="Search"
+                readonly
+            >
+
+        </div>
+
+
+
+        <!-- CHAT LIST -->
+
+        <div class="chat-list">
+
+
+            <!-- =================================
+                 YOUR PROFILE
+            ================================== -->
+
+            <div
+                class="chat-item special-chat"
+                id="yourProfile"
+            >
+
+                <div class="avatar">
+
+                    <!-- YOUR PHOTO -->
+                    <img
+                        src="assets/images/profile-you.jpg"
+                        alt="You"
+                    >
+
+                </div>
+
+
+                <div class="chat-info">
+
+                    <div class="chat-top">
+
+                        <strong>Ujjwal</strong>
+
+                        <span>
+                            Just now
+                        </span>
+
+                    </div>
+
+
+                    <div class="chat-preview">
+
+                        <span>
+                            1 new message
+                        </span>
+
+                        <b>1</b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 FAKE CONTACT 1
+            ================================== -->
+
+            <div class="chat-item">
+
+                <div class="avatar">
+
+                    <!-- CONTACT 1 PHOTO -->
+                    <img
+                        src="assets/images/profile-1.jpg"
+                        alt="Contact 1"
+                    >
+
+                </div>
+
+
+                <div class="chat-info">
+
+                    <div class="chat-top">
+
+                        <strong>
+                          Unknown
+                        </strong>
+
+                        <span>
+                            Yesterday
+                        </span>
+
+                    </div>
+
+
+                    <div class="chat-preview">
+
+                        Hey! How are you?
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 FAKE CONTACT 2
+            ================================== -->
+
+            <div class="chat-item">
+
+                <div class="avatar">
+
+                    <!-- CONTACT 2 PHOTO -->
+                    <img
+                        src="assets/images/profile-2.jpg"
+                        alt="Contact 2"
+                    >
+
+                </div>
+
+
+                <div class="chat-info">
+
+                    <div class="chat-top">
+
+                        <strong>
+                            Unknown
+                        </strong>
+
+                        <span>
+                            Monday
+                        </span>
+
+                    </div>
+
+
+                    <div class="chat-preview">
+
+                        See you soon!
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 FAKE CONTACT 3
+            ================================== -->
+
+            <div class="chat-item">
+
+                <div class="avatar">
+
+                    <!-- CONTACT 3 PHOTO -->
+                    <img
+                        src="assets/images/profile-3.jpg"
+                        alt="Contact 3"
+                    >
+
+                </div>
+
+
+                <div class="chat-info">
+
+                    <div class="chat-top">
+
+                        <strong>
+                            Ankita
+                        </strong>
+
+                        <span>
+                            Sunday
+                        </span>
+
+                    </div>
+
+
+                    <div class="chat-preview">
+
+                        Good night 🌙
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- BOTTOM NAV -->
+
+        <nav class="wa-bottom">
+
+            <div class="bottom-item active">
+
+                💬
+
+                <small>
+                    Chats
+                </small>
+
+            </div>
+
+
+            <div class="bottom-item">
+
+                📰
+
+                <small>
+                    Updates
+                </small>
+
+            </div>
+
+
+            <div class="bottom-item">
+
+                👥
+
+                <small>
+                    Communities
+                </small>
+
+            </div>
+
+
+            <div class="bottom-item">
+
+                ☎️
+
+                <small>
+                    Calls
+                </small>
+
+            </div>
+
+        </nav>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     CHAT SCREEN
+===================================== -->
+
+<section id="chatScreen" class="screen">
+
+    <div class="phone chat-phone">
+
+
+        <!-- CHAT HEADER -->
+
+        <header class="chat-header">
+
+            <button id="backToWhatsApp">
+                ←
+            </button>
+
+
+            <div class="chat-avatar">
+
+                <img
+                    src="assets/images/profile-you.jpg"
+                    alt="You"
+                >
+
+            </div>
+
+
+            <div class="chat-person">
+
+                <strong>
+                    You
+                </strong>
+
+                <small>
+                    online
+                </small>
+
+            </div>
+
+
+            <div class="chat-actions">
+
+                ☎️ &nbsp; ⋮
+
+            </div>
+
+        </header>
+
+
+
+        <!-- MESSAGES -->
+
+        <main
+            class="messages"
+            id="messages"
+        >
+
+            <div class="date-divider">
+                <span>
+                    Today
+                </span>
+            </div>
+
+
+            <div class="message received hidden-message">
+                Ki re..ki korchis?
+            </div>
+
+
+            <div class="message received hidden-message">
+              Baad de..amer kichu toke bolar ache!
+            </div>
+
+
+            <div class="message received hidden-message">
+                But at first...
+            </div>
+
+
+            <div class="message received hidden-message">
+                Tor jonno special kichu wait korche!..🙃😊
+            </div>
+        <div class="message received hidden-message">
+          Aktai request,skip na kore,sheshe "Replay" button na paoya porjonto continue korbi..🙏🥺
+        </div>
+
+
+            <div class="message special-message hidden-message">
+
+                <span>
+                    ✨ so,deri na kore, start kor...🤗
+                </span>
+
+            </div>
+
+        </main>
+
+
+
+        <!-- INPUT -->
+
+        <div class="chat-input">
+
+            <div class="input-field">
+                Message
+            </div>
+
+            <button class="send-button">
+                ➤
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     SPECIAL SCREEN
+===================================== -->
+
+<section id="specialScreen" class="screen">
+
+    <div class="special-content">
+
+
+        <div class="glow-circle">
+            ✨
+        </div>
+
+
+        <p class="small-title">
+            A little secret...
+        </p>
+
+
+        <h1>
+            Your surprise journey<br>
+            starts now.
+        </h1>
+
+
+        <p>
+            There is something waiting for you.
+            Something made especially for your special day.
+        </p>
+
+
+        <button id="startJourneyBtn">
+
+            Go ahead for your suprise
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+
+    </div>
+
+</section>
+<!-- =====================================
+     CINEMATIC JOURNEY INTRO
+===================================== -->
+
+<section id="journeyIntroScreen" class="screen">
+
+    <div class="journey-intro">
+
+        <div class="stars"></div>
+
+        <div class="journey-line line-one">
+            Some days are ordinary...
+        </div>
+
+        <div class="journey-line line-two">
+            Some days become memories.
+        </div>
+
+        <div class="journey-line line-three">
+            And now...
+        </div>
+
+        <div class="journey-line line-four">
+            There are days worth remembering forever.
+        </div>
+
+        <div class="journey-final-text">
+            <span>Today</span>
+            <strong>is one of them.</strong>
+        </div>
+
+        <button id="continueJourneyBtn">
+            Continue
+            <span>→</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     MUSIC INTRO SCREEN
+===================================== -->
+
+<section id="musicScreen" class="screen">
+
+    <div class="music-content">
+
+        <div class="music-icon">
+            ♪
+        </div>
+
+        <p class="music-small-title">
+            A little music...
+        </p>
+
+        <h1>
+            Put on your<br>
+            headphones.
+        </h1>
+
+        <p>
+            This journey is better with a little music.
+        </p>
+
+        <button id="playMusicBtn">
+            <span>▶</span>
+            Play the Journey
+        </button>
+
+        <button
+            id="skipMusicBtn"
+            class="skip-button"
+        >
+            Continue without music
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     MEMORY JOURNEY
+===================================== -->
+
+<section id="memoryScreen" class="screen">
+
+    <div class="memory-journey">
+
+        <div class="memory-top">
+
+            <span id="memoryCounter">
+                MEMORY 01 / 03
+            </span>
+
+        </div>
+
+
+        <!-- MEMORY CARD -->
+
+        <div
+            class="memory-card"
+            id="memoryCard"
+        >
+
+            <div class="memory-card-glow"></div>
+
+            <div class="memory-icon" id="memoryIcon">
+                ✨
+            </div>
+
+            <p
+                class="memory-label"
+                id="memoryLabel"
+            >
+                A LITTLE THOUGHT
+            </p>
+
+            <h1 id="memoryTitle">
+                Every beautiful story
+                begins somewhere...
+            </h1>
+
+            <p
+                class="memory-text"
+                id="memoryText"
+            >
+                And sometimes, the best moments
+                begin without us even knowing it.
+            </p>
+
+
+            <button
+                id="revealMemoryBtn"
+                class="reveal-memory-btn"
+            >
+                Tap to reveal
+                <span>✦</span>
+            </button>
+
+
+            <div
+                id="memoryReveal"
+                class="memory-reveal"
+            >
+
+                <div class="reveal-line"></div>
+
+                <p id="revealText">
+                    Some people simply make
+                    ordinary moments feel special.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- NEXT BUTTON -->
+
+       <button
+    id="nextMemoryBtn"
+    class="next-memory-btn"
+    style="display: none;"
+>
+    Next Memory
+    <span>→</span>
+       </button>
+    </div>
+
+</section>
+
+<!-- =====================================
+     PHOTO HEART MEMORY
+===================================== -->
+
+<section
+    id="heartMemoryScreen"
+    class="screen"
+>
+
+    <div class="heart-memory-page">
+
+        <div
+            id="heartPhotoWall"
+            class="heart-photo-wall"
+        ></div>
+
+        <div
+            id="heartMemoryHint"
+            class="heart-memory-hint"
+        >
+            <div class="heart-hint-icon">♡</div>
+
+            <p>
+                Some memories are meant to stay in heart💖.
+            </p>
+
+            <small>
+                Tap anywhere to continue
+            </small>
+        </div>
+
+    </div>
+
+</section>
+  
+  <!-- =====================================
+     SPECIAL MOMENTS
+===================================== -->
+
+<section id="momentsScreen" class="screen">
+
+    <div class="moments-container">
+
+        <div class="moments-heading">
+
+            <span>
+                A FEW SPECIAL MOMENTS
+            </span>
+
+            <h1>
+                Some moments<br>
+                deserve to stay.
+            </h1>
+
+            <p>
+                Before we reach the end,
+                let's take a little look back.
+            </p>
+
+        </div>
+
+
+        <!-- =================================
+             MOMENT 01
+        ================================== -->
+
+        <div class="moment-card">
+
+            <div class="moment-image">
+
+                <!--
+                YOUR IMAGE 01
+                শুধু filename পরিবর্তন করবে
+                -->
+
+                <img
+                    src="assets/images/moment-1.jpg"
+                    alt="Memory 1"
+                >
+
+                <div class="image-overlay"></div>
+
+                <span class="moment-number">
+                    01
+                </span>
+
+            </div>
+
+            <div class="moment-caption">
+
+                <small>
+                    A LITTLE MOMENT
+                </small>
+
+                <p>
+                    Some memories don't need
+                    many words.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================
+             MOMENT 02
+        ================================== -->
+
+        <div class="moment-card">
+
+            <div class="moment-image">
+
+                <img
+                    src="assets/images/moment-2.jpg"
+                    alt="Memory 2"
+                >
+
+                <div class="image-overlay"></div>
+
+                <span class="moment-number">
+                    02
+                </span>
+
+            </div>
+
+            <div class="moment-caption">
+
+                <small>
+                    ANOTHER MEMORY
+                </small>
+
+                <p>
+                    Because the little things
+                    often sketch the most.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================
+             MOMENT 03
+        ================================== -->
+
+        <div class="moment-card">
+
+            <div class="moment-image">
+
+                <img
+                    src="assets/images/moment-3.jpg"
+                    alt="Memory 3"
+                >
+
+                <div class="image-overlay"></div>
+
+                <span class="moment-number">
+                    03
+                </span>
+
+            </div>
+
+            <div class="moment-caption">
+
+                <small>
+                    ONE MORE
+                </small>
+
+                <p>
+                    And somehow,
+                    A little smile feels different and says all.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTINUE -->
+
+        <button id="momentsContinueBtn">
+
+            There's one more thing for you
+
+            <span>→</span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     FINAL TRANSITION
+===================================== -->
+
+<section id="finalTransitionScreen" class="screen">
+
+    <div class="final-transition">
+
+        <div class="transition-particle particle-one"></div>
+        <div class="transition-particle particle-two"></div>
+        <div class="transition-particle particle-three"></div>
+
+        <p>
+            You've made it this far...
+        </p>
+
+        <h1>
+            Now close your eyes<br>
+            for just a second.
+        </h1>
+
+        <div class="transition-line"></div>
+
+        <span>
+            Something beautiful is coming.
+        </span>
+
+    </div>
+
+</section>
+
+  <!-- =====================================
+     GRAND BIRTHDAY REVEAL
+===================================== -->
+
+<section id="birthdayScreen" class="screen">
+
+    <div class="birthday-background">
+
+        <div class="birthday-particle p1"></div>
+        <div class="birthday-particle p2"></div>
+        <div class="birthday-particle p3"></div>
+        <div class="birthday-particle p4"></div>
+        <div class="birthday-particle p5"></div>
+        <div class="birthday-particle p6"></div>
+
+
+        <!-- INTRO -->
+
+        <!-- =====================================
+     FINAL COUNTDOWN
+===================================== -->
+
+<div
+    id="birthdayIntro"
+    class="birthday-intro"
+>
+
+    <p>
+        And finally...
+    </p>
+
+    <h2>
+        There's something<br>
+        I wanted to tell you.
+    </h2>
+
+</div>
+
+
+<div
+    id="countdownScreen"
+    class="countdown-screen"
+>
+
+    <div class="countdown-ring">
+
+        <div
+            id="countdownNumber"
+            class="countdown-number"
+        >
+            10
+        </div>
+
+    </div>
+
+    <p class="countdown-caption">
+        Something special is coming...
+    </p>
+
+</div>
+
+   <!-- =====================================
+     COUNTDOWN SUSPENSE
+===================================== -->
+
+<div id="birthdaySuspense" class="birthday-suspense">
+
+    <div class="suspense-text">
+        Wait...
+    </div>
+
+    <div class="suspense-subtext">
+        Something special is coming... ✨
+    </div>
+
+</div>   
+
+<div
+    id="revealFlash"
+    class="reveal-flash"
+></div>
+<!-- =====================================
+     BALLOON POP BIRTHDAY REVEAL
+===================================== -->
+
+<div id="balloonReveal" class="balloon-reveal">
+
+    <div id="balloon" class="birthday-balloon">
+        🎈
+    </div>
+
+    <div id="balloonBurst" class="balloon-burst">
+        <span>✨</span>
+        <span>🎉</span>
+        <span>✨</span>
+        <span>🎊</span>
+        <span>✨</span>
+        <span>🎉</span>
+        <span>✨</span>
+        <span>🎊</span>
+    </div>
+
+</div>
+
+      
+        <!-- PHOTO REVEAL -->
+
+       <div id="birthdayReveal" class="birthday-reveal">
+
+    <div class="full-photo-reveal">
+
+        <img
+            src="assets/images/birthday-person.jpg"
+            alt="Birthday"
+            id="birthdayPhoto"
+        >
+
+        <div class="photo-dark-overlay"></div>
+
+        <div class="photo-light"></div>
+
+    </div>
+
+
+    <div class="birthday-text">
+
+        <p class="birthday-small">
+            TODAY IS YOUR SPECIAL DAY
+        </p>
+
+        <h1>
+            Happy Birthday Trisha
+        </h1>
+
+        <div class="name-reveal">
+            ✨
+            <span id="birthdayName">
+                Someone Special🥰
+            </span>
+            ✨
+        </div>
+
+        <p class="birthday-message">
+            May your days be filled with
+            beautiful moments, genuine smiles,
+            and everything that makes you happy.
+        </p>
+
+    </div>
+
+
+    <button
+        id="finalWishBtn"
+        class="final-wish-btn"
+    >
+        One Last Surprise please
+        <span>→</span>
+    </button>
+
+       </div>
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     FINAL MESSAGE
+===================================== -->
+
+<section
+    id="finalMessageScreen"
+    class="screen"
+>
+
+    <div class="final-message-content">
+
+        <div class="final-heart">
+            ♡
+        </div>
+
+        <p>
+            Made with a little thought,
+            a little creativity,
+            and a lot of love and good wishes only for making you happy.
+        </p>
+
+        <h1>
+            Have a beautiful year ahead forever.
+        </h1>
+
+        <span>
+            ✨
+        </span>
+<button
+    id="openGiftBtn"
+    class="open-gift-btn"
+>
+    Please Choose Your Gift 🎁
+    <span>→</span>
+</button>
+    </div>
+
+</section>
+  <!-- =====================================
+     GIFT SELECTION
+===================================== -->
+
+<section
+    id="giftScreen"
+    class="screen"
+>
+
+    <div class="gift-container">
+
+        <div class="gift-heading">
+
+            <span>
+                ONE LAST LITTLE THING FROM ME
+            </span>
+
+            <h1>
+                Your gift,<br>
+                your choice. 🎁
+            </h1>
+
+            <p>
+                Choose something you'd like
+                from me.
+            </p>
+
+        </div>
+
+
+        <!-- GIFT OPTIONS -->
+
+        <div class="gift-grid">
+
+
+            <!-- CHOCOLATE -->
+
+            <button
+                class="gift-card"
+                data-gift="Chocolate"
+            >
+
+                <div class="gift-image">
+
+                    <img
+                        src="assets/images/gift-chocolate.jpg"
+                        alt="Chocolate"
+                    >
+
+                </div>
+
+                <div class="gift-info">
+
+                    <strong>
+                        🍫 Chocolate
+                    </strong>
+
+                    <span>
+                        A little sweetness like you
+                    </span>
+
+                </div>
+
+            </button>
+
+
+            <!-- PEN -->
+
+            <button
+                class="gift-card"
+                data-gift="Beautiful Pen"
+            >
+
+                <div class="gift-image">
+
+                    <img
+                        src="assets/images/gift-pen.jpg"
+                        alt="Beautiful Pen"
+                    >
+
+                </div>
+
+                <div class="gift-info">
+
+                    <strong>
+                        🖊️ Beautiful Pen
+                    </strong>
+
+                    <span>
+                        Something special and valuable like you
+                    </span>
+
+                </div>
+
+            </button>
+
+
+            <!-- OTHER -->
+
+            <button
+                class="gift-card other-gift"
+                data-gift="Something Else"
+            >
+
+                <div class="other-gift-icon">
+                    🎁
+                </div>
+
+                <div class="gift-info">
+
+                    <strong>
+                        Something Else
+                    </strong>
+
+                    <span>
+                        Tell me what you'd like
+                    </span>
+
+                </div>
+
+            </button>
+
+        </div>
+
+
+        <!-- OTHER GIFT INPUT -->
+
+        <div
+            id="customGiftBox"
+            class="custom-gift-box"
+        >
+
+            <label>
+                What would you like? ✨
+            </label>
+
+            <textarea
+                id="customGiftInput"
+                placeholder="Write your choice here..."
+                maxlength="120"
+            ></textarea>
+
+        </div>
+
+
+        <!-- CONFIRM -->
+
+        <button
+            id="confirmGiftBtn"
+            class="confirm-gift-btn"
+            disabled
+        >
+            Choose This Gift
+            <span>→</span>
+        </button>
+
+
+        <p class="gift-note">
+            No wrong choice. Pick whatever makes you smile.😊 ♡
+        </p>
+
+    </div>
+
+</section>
+
+  <!-- =====================================
+     GIFT CONFIRMATION
+===================================== -->
+
+<section
+    id="giftConfirmationScreen"
+    class="screen"
+>
+
+    <div class="gift-confirmation">
+
+        <div
+            id="giftSuccessIcon"
+            class="gift-success-icon"
+        >
+            ✨
+        </div>
+
+        <p class="confirmation-small">
+            YOUR CHOICE HAS BEEN MADE
+        </p>
+
+        <h1>
+            Good choice. ♡
+        </h1>
+
+        <p class="confirmation-text">
+            So this is the little gift
+            you picked from me...
+        </p>
+
+
+        <!-- SELECTED GIFT -->
+
+        <div class="selected-gift-card">
+
+            <div
+                id="selectedGiftImage"
+                class="selected-gift-image"
+            >
+
+                <span id="selectedGiftEmoji">
+                    🎁
+                </span>
+
+            </div>
+
+            <div class="selected-gift-info">
+
+                <small>
+                    YOUR CHOICE
+                </small>
+
+                <h2 id="selectedGiftName">
+                    Your Gift
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <p
+            id="selectedGiftMessage"
+            class="selected-gift-message"
+        >
+            A little something,
+            chosen just by you. ✨
+        </p>
+
+     <button id="sendGiftChoiceBtn" class="gift-action-btn">
+    Save Your Choice 💝
+     </button>
+        <button
+            id="giftDoneBtn"
+            class="gift-done-btn"
+          disabled
+        >
+            That's all for today
+            <span>♡</span>
+        </button>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+     FINAL VIDEO SCREEN
+===================================== -->
+
+<section
+    id="finalVideoScreen"
+    class="screen final-video-screen"
+>
+
+    <video
+        id="finalBirthdayVideo"
+        playsinline
+        preload="auto"
+    >
+
+        <source
+            id="finalBirthdayVideoSource"
+            src="assets/video/TrishaBirthdayStatus.mp4"
+            type="video/mp4"
+        >
+
+    </video>
+
+</section>
+<!-- =====================================
+     FINAL GOODBYE — PHASE 7
+===================================== -->
+
+<section
+    id="goodbyeScreen"
+    class="screen"
+>
+
+    <div class="goodbye-background">
+
+        <div class="goodbye-orb orb-one"></div>
+        <div class="goodbye-orb orb-two"></div>
+        <div class="goodbye-orb orb-three"></div>
+
+        <div class="goodbye-particle gp-one">✦</div>
+        <div class="goodbye-particle gp-two">✧</div>
+        <div class="goodbye-particle gp-three">·</div>
+        <div class="goodbye-particle gp-four">✦</div>
+        <div class="goodbye-particle gp-five">·</div>
+
+        <div class="goodbye-content">
+
+            <div class="goodbye-top-mark">
+                <span></span>
+                <i>✦</i>
+                <span></span>
+            </div>
+
+            <p class="goodbye-small">
+                ONE LAST LITTLE MESSAGE
+            </p>
+
+            <h1 class="goodbye-title">
+                I hope this little<br>
+                surprise made you smile.☺
+            </h1>
+
+            <p class="goodbye-message">
+                From the first little message
+                to the gift you chose,
+                every little surprise was made
+                just to make your day special.🙂😌
+            </p>
+
+            <div class="goodbye-divider">
+                <span></span>
+                <b>♡</b>
+                <span></span>
+            </div>
+
+            <p class="goodbye-signature">
+                Some memories are meant to stay.
+            </p>
+
+            <div class="goodbye-final-line">
+                Until the next memory...Bye..Tata👋
+                <span>✨</span>
+            </div>
+
+            <button
+                id="replayJourneyBtn"
+                class="replay-journey-btn"
+                type="button"
+            >
+                <span class="replay-icon">↻</span>
+                Replay the Journey again
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     FINAL MUSIC
+===================================== -->
+
+<audio
+    id="birthdayMusic"
+    preload="auto"
+>
+    <source
+        src="assets/music/birthday.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+<!-- =====================================
+     JOURNEY MUSIC
+===================================== -->
+
+<audio
+    id="journeyMusic"
+    preload="auto"
+    loop
+>
+    <source
+        src="assets/music/journey.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
